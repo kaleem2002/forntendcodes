@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        /* .class {
+            text-align: center;
+            border: solid black 1px;
+            background-color: rgb(152, 205, 205)
+        }
+        form{
+            margin: 20px;
+        }
+        h1 {
+            color: red;
+        }
+        h2{
+            color: blue;
+        }
+        .submit{
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            width: 150px;
+        }
+        body{
+            justify-content: center;
+            display: flex;
+        }
+        td{
+            text-align: left;
+        }
+        #div1 {
+            text-align: left;
+        }
+        #div2{
+            display: right;
+        } */
+        .home {
+            border: solid black 1px;
+            background-color: #9ba1a1;
+            box-shadow: rgb(158, 107, 205);
+            border-radius: 20px;
+        }
+        h1{
+            color: rgb(220, 81, 230);
+            text-align: center;
+        }
+        h2{
+            color: blue;
+            text-align: center;
+        }
+        h4{
+            color: rgb(177, 72, 72);
+        }
+        body{
+            justify-content: center;
+            display: flex;
+        }
+        form{
+            margin: 25px;
+        }
+        .submit{
+            background-color: green;
+            border-radius: 10px;
+            width: 100px;
+            color: white;
+            
+        }
+       .button{
+            justify-content: center;
+            display: flex;
+        }
+        body{
+            background-color: rgb(248, 245, 245);
+        }
+        input{
+            height: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        select{
+             height: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="home">
+        <tr>
+            <td>
+                <div id="div1">
+                    <div class="class">
+                        <form>
+                            <h1>SMR LAND SURVEYORS</h1>
+                            <H2>Registration Form</H2>
+                            <h4>Personal Details</h4>
+                            <table> 
+                                <tr>
+                                    <td> <label for="fname">First Name*</label></td>
+                                    <td><input type="text" name="First Name" id="fname" placeholder="enter first name" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="lname">Last Name*</label></td>
+                                    <td> <input type="text" name="Last Name" id="lname" placeholder="enter last name" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="mnum">Mobile Number*</label></td>
+                                    <td> <input type="number" name="Mobile Number" id="mnum" placeholder="enter mobile number">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="mail">Email*</label></td>
+                                    <td><input type="text" name="Email" id="mail" placeholder="enter email" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="pswd">Password*</label></td>
+                                    <td> <input type="password" name="Password" id="pswd" placeholder="enter password" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="cpwd">Confirm Password</label></td>
+                                    <td> <input type="Password" name="Confirm Password " id="cpwd" placeholder="enter confirm password"
+                                            required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="dob">Date Of Birth*</label> </td>
+                                    <td><input type="date" name="Date Of Birth" id="dob">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="gender"> Gender</label>
+                                        
+                                    </td>
+                                    <td><select name="Gender" id="gender">
+                                        <option value="male">Male</option>
+                                        <option value="female">Femal</option>
+                                        <option value="other">Other</option>
+                                    </select></td>
+                                </tr>
+                               
+            
+                                <tr>
+                                    <td> <input type="Checkbox" name="Terms And Conditions*" id="tr" > <label for="tr">Terms & Conditions</label>
+                                        
+                                    </td>
+                                </tr>
+                               
+                            </table>
+                            <div class="button"><input type="submit" name="submit", class="submit"></div>
+                            
+                        </form>
+    </table>
+   
+    
+</body>
+
+</html>
