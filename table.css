@@ -1,0 +1,37 @@
+table, th,tr,td{
+    border: 1px solid rgb(27, 8, 8);
+    font-size: larger;
+    width: 800px;
+    height: 60px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+body{
+    justify-content: center;
+    display: flex;
+}
+.tr1{
+    background-color: rgb(192, 145, 84);
+    color: rgb(95, 107, 200);
+}
+.table{
+    background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/html-gradient-background-css.png?fit=993%2C649&ssl=1)
+}
+.name{
+    color: rgb(21, 9, 126);
+}
+.grade{
+    color: red;
+}
+.marks{
+    color: rgb(77, 77, 212);
+}
+.branch{
+    color: rgb(42, 165, 54);
+}
+.roll{
+    color:rgb(214, 15, 15); ;
+}
